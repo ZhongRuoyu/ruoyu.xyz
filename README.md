@@ -1,12 +1,10 @@
-# <span>zhongruoyu.com</span>
+# My Personal Site
 
 ## About
 
-This is the repository for https://zhongruoyu.com, powered by [Jekyll](https://jekyllrb.com/).
+This is the repository for my personal site https://ruoyu.xyz, powered by [Jekyll](https://jekyllrb.com/). This version was developed between 20 July 2020 and 24 July 2020, and published on 24 July 2020. It is currently kept in sync with https://zhongruoyu.com.
 
-The site has been available since 22 July 2020. It is currently preserved for future use.
-
-Please stay tuned for future updates at https://ruoyu.xyz.
+For more information, please visit [the site](https://ruoyu.xyz).
 
 ## Licence
 
