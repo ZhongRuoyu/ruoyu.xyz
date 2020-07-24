@@ -1,0 +1,53 @@
+body > main.page-content {
+    font-size: $font-normal;
+    box-sizing: border-box;
+    padding: 7rem 0 3rem;
+    min-height: $viewport-height-split-alpha;
+    flex: 1 0 auto;
+    flex-direction: column;
+
+    @media #{$tablet} {
+        min-height: $tablet-viewport-height-split-alpha;
+    }
+    @media #{$mobile} {
+        min-height: $mobile-viewport-height-split-alpha;
+    }
+    @media print {
+        margin: 2rem;
+        padding: 0;
+        width: initial;
+        min-height: initial;
+    }
+
+    > div.wrapper {
+        padding: 0 5%;
+        @media #{$mobile-smaller} {
+            padding: 0 8%;
+        }
+        @media #{$mobile-smallest} {
+            padding: 0 10%;
+        }
+
+        &.centre {
+            padding: 0 !important;
+        }
+    }
+}
+
+// centre_content
+body.centre {
+
+    > main.page-content.centre {
+        display: table;
+        margin: auto;
+        padding: 0;
+        padding-top: 2rem;
+
+
+        > div.wrapper.centre {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+    }
+}

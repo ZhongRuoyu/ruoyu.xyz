@@ -1,0 +1,145 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $alpha;
+    font-weight: bold;
+    margin: 1em auto;
+    page-break-after: avoid;
+}
+h1 {
+    font-size: 2 * $font-normal;
+}
+h2 {
+    font-size: 1.6 * $font-normal;
+}
+h3 {
+    font-size: 1.4 * $font-normal;
+}
+h4 {
+    font-size: 1.2 * $font-normal;
+}
+h5 {
+    font-size: 1.1 * $font-normal;
+}
+h6 {
+    font-size: 1 * $font-normal;
+}
+
+p {
+    color: $beta;
+    line-height: 2em;
+    display: block;
+    margin: 1em auto;
+}
+
+a {
+    color: $theme;
+    text-decoration: none;
+    transition: $default-transition;
+
+    &:hover {
+        color: $beta;
+    }
+
+    &.back {
+        text-decoration: none !important;
+
+        &::before {
+            content: "<\00a0";
+        }
+    }
+
+    &.forward {
+        text-decoration: none !important;
+
+        &::after {
+            content: "\00a0>";
+        }
+    }
+}
+
+strong {
+    font-weight: bold;
+    color: $alpha;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+ul,
+ol {
+    line-height: 2em;
+    padding-left: $indentation-unit;
+
+    & > li {
+        padding: 0.3em 0;
+    }
+}
+
+blockquote {
+    display: block;
+    margin: 1em auto;
+    border-left: 4px solid $epsilon;
+    padding: 0 2em;
+    font-family: $serif;
+}
+
+// for figure:not(.highlight), see base/media.scss
+figure.highlight {
+    text-align: left;
+}
+
+pre {
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    overflow-x: auto;
+    border-radius: $border-radius;
+    font-family: $monospace;
+    background-color: $epsilon;
+}
+
+code {
+    font-family: $monospace;
+}
+
+table {
+    overflow-x: auto;
+    margin: 1em auto;
+    width: auto;
+    max-width: 90%;
+    border-collapse: collapse;
+    border: 1px solid $gamma;
+    text-align: left;
+
+    thead {
+        vertical-align: middle;
+    }
+
+    th,
+    td {
+        padding: 0.5em 0.8em;
+
+        @media #{$tablet} {
+            padding: 0.5em;
+        }
+        @media #{$mobile} {
+            padding: 0.4em;
+        }
+    }
+
+    th {
+        color: $alpha;
+        background-color: $epsilon;
+        border: 1px solid $gamma;
+    }
+
+    td {
+        border: 1px solid $delta;
+    }
+}

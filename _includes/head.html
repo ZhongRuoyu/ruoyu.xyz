@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="copyright" content="&copy; 2020 Zhong Ruoyu. All rights reserved.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- seo -%}
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  {%- feed_meta -%}
+
+  <!-- Begin Google Analytics -->
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+  {%- endif -%}
+  <!-- End Google Analytics -->
+
+  <!-- Begin favicons -->
+  <link rel="icon" type="image/png" href="/assets/images/favicons/favicon-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/favicons/favicon-128.png" sizes="128x128">
+  <!-- End favicons -->
+
+  {%- if page.use_latex -%}
+    <!-- Begin MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>MathJax = { options: { renderActions: { addMenu: [0, '', ''] } } };</script>
+    <!-- End MathJax -->
+  {%- endif -%}
+
+  <!-- Begin jQuery -->
+    <script defer src="/assets/scripts/jquery-3.5.0.min.js"></script>
+  <!-- End jQuery -->
+
+  <!-- Begin mobile navigation script -->
+    <script defer src="/assets/scripts/mobile_navigation.js"></script>
+  <!-- End mobile navigation script -->
+</head>

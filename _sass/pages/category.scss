@@ -1,0 +1,39 @@
+main.page-content > div.wrapper > div.posts-list-wrapper,
+main.page-content > div.wrapper > div.tag-catalogue-container > div.tag-catalogue {
+
+    > div.posts-list {
+        width: 80%;
+        margin: auto;
+        border-top: 1px solid $delta;
+        border-bottom: 1px solid $delta;
+        padding: 2rem 1rem;
+    
+        > a.posts-list-item-link {
+            display: block;
+            color: $gamma;
+            font-size: $font-small;
+            margin: 1em auto;
+            padding: 0.5em 0;
+
+            > div.posts-list-item-date-wrapper {
+                padding: 0.2em 0;
+
+                @media print {
+                    break-after: avoid;
+                }
+            }
+
+            > h3.posts-list-item-title {
+                font-weight: normal;
+                font-size: $font-large;
+                margin: 0;
+                padding: 0.2em 0;
+                transition: $default-transition;
+
+                &:hover {
+                    color: $theme;
+                }
+            }
+        }
+    }
+}

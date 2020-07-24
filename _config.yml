@@ -1,0 +1,71 @@
+title: Zhong Ruoyu
+tagline: Ruoyu's personal site.
+description: >-
+  Zhong Ruoyu's personal site.
+url: https://ruoyu.xyz
+baseurl: "" # the subpath of the site, e.g. /blog
+lang: en-SG
+logo: /assets/images/logo/logo.png
+
+author: Zhong Ruoyu
+
+# post settings
+navigation_categories:
+  -
+    name: Blog
+    path: /blog/
+  -
+    name: Projects
+    path: /projects/
+  -
+    name: About
+    path: /about/
+
+hide_info: false
+hide_author: false
+hide_author_twitter: false
+hide_date: false
+hide_date_updated: false
+hide_tags: false
+
+twitter:
+  username: ZhongRuoyu
+  card: summary_large_image
+facebook:
+  publisher: https://www.facebook.com/ciel.ruoyu
+social:
+  name: Zhong Ruoyu
+  links:
+    - https://twitter.com/ZhongRuoyu
+    - https://www.facebook.com/ciel.ruoyu
+    - https://www.instagram.com/cielchung/
+    - https://github.com/ZhongRuoyu
+
+#webmaster_verifications:
+#  google:
+google_analytics: UA-167948296-1
+
+permalink: /:categories/:year-:month/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+      image: /assets/images/default-card.png
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: Zhong Ruoyu
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from

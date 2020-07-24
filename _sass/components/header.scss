@@ -1,0 +1,22 @@
+main.page-content {
+    &.centre header.page-header {
+        text-align: center !important;
+        margin: auto !important;
+    }
+
+    header.page-header {
+        text-align: left;
+        margin: 3em auto;
+
+        img.header-image {
+            width: 90%;
+            max-width: initial;
+        }
+
+        div.page-title-container {
+            h1.page-title.page-title-with-header-image-above {
+                margin-top: 0;
+            }
+        }
+    }
+}

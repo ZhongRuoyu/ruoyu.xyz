@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{%- assign category_name = page.title | downcase -%}
+{%- assign found = false -%}
+
+{%- for post in site.posts -%}
+  {%- assign post_categories = post.categories | downcase -%}
+  {%- if post_categories contains category_name -%}
+    {%- assign found = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if found -%}
+  <div class="posts-list-wrapper">
+    <div class="posts-list">
+      {%- for post in site.posts -%}
+        {%- assign post_categories = post.categories | downcase -%}
+        {%- if post_categories contains category_name -%}
+          <a class="posts-list-item-link" href="{{ post.url }}">
+            <div class="posts-list-item-date-wrapper">
+              <time class="posts-list-item-date" datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%-d %b %Y" }}
+              </time>
+            </div>
+            <h3 class="posts-list-item-title">{{ post.title }}</h3>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+{%- else -%}
+  <div class="post-not-found-wrapper">
+    <p class="post-not-found">
+      There are currently no posts in this category.
+    </p>
+  </div>
+{%- endif -%}

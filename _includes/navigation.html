@@ -1,0 +1,51 @@
+{%- if page.home == true -%}
+  {%- assign home = "navigation-home" -%}
+  {%- assign forward = "" -%} {%- comment -%} display style changed {%- endcomment -%}
+{%- else -%}
+  {%- assign home = "" -%}
+  {%- assign forward = "" -%}
+{%- endif -%}
+
+{%- if page.hide_navigation != true
+    and site.categories -%}
+  <nav id="navigation" class="navigation {{ home }}">
+    <ul class="navigation-list">
+      <li class="navigation-list-item navigation-list-item-home">
+        <a class="navigation-link navigation-link-home" onclick="navigationLinkHome()">
+          <img class="navigation-link-home-logo" src="/assets/images/logo/logo.png" alt="Site Logo">
+        </a>
+        <span id="mobile-navigation-check" style="display: none;"></span>
+      </li>
+      <li id="mobile-navigation-list-item-home" class="navigation-list-item mobile-navigation-list-item-home mobile-navigation-list-item-animated" style="display: none;">
+          <a id="mobile-navigation-link-home" class="navigation-link" href="/">Home</a>
+      </li>
+      {%- for category in site.navigation_categories -%}
+        {%- assign page_category = page.category | downcase -%}
+        {%- assign category_name = category.name | downcase -%}
+        {%- if page_category contains category_name -%}
+          {%- assign li_current_category = "navigation-list-item-current-category" -%}
+          {%- assign a_current_category = "navigation-link-current-category" -%}
+        {%- else -%}
+          {%- assign li_current_category = "" -%}
+          {%- assign a_current_category = "" -%}
+        {%- endif -%}
+        {%- if category.path == page.dir -%}
+          {%- assign forward = "" -%}
+          {%- assign li_current_page = "navigation-list-item-current-page" -%}
+          {%- assign a_current_page = "navigation-link-current-page" -%}
+        {%- else -%}
+          {%- assign li_current_page = "" -%}
+          {%- assign a_current_page = "" -%}
+        {%- endif -%}
+        <li class="navigation-list-item mobile-navigation-list-item-animated {{ li_current_category }} {{ li_current_page }}">
+          {%- if category.path == page.dir -%}
+            <span class="navigation-link navigation-current-page">{{ category.name }}</span>
+          {%- else -%}
+            <a class="navigation-link {{ forward }} {{ a_current_category }} {{ a_current_page }}"
+              href="{{ category.path }}">{{ category.name }}</a>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+{%- endif -%}

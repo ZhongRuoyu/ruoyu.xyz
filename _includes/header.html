@@ -1,0 +1,45 @@
+{%- if page.layout == "post" -%}
+  {%- assign title = page.title | slugify -%}
+  {%- assign post_header = "post-header" -%}
+  {%- assign post_title = "post-title" -%}
+{%- else -%}
+  {%- assign title = "" -%}
+  {%- assign post_header = "" -%}
+  {%- assign post_title = "" -%}
+{%- endif -%}
+{%- if page.header_image -%}
+  {%- assign container_with_header_image = "page-title-container-with-header-image-above" -%}
+  {%- assign title_with_header_image = "page-title-with-header-image-above" -%}
+{%- else -%}
+  {%- assign container_with_header_image = "" -%}
+  {%- assign title_with_header_image = "" -%}
+{%- endif -%}
+{%- if page.home -%}
+  {%- assign home_header = "home-header" -%}
+  {%- assign home_header_image = "home-header-image" -%}
+  {%- assign home_title_container = "home-title-container" -%}
+  {%- assign home_title = "home-title" -%}
+{%- else -%}
+  {%- assign home_header = "" -%}
+  {%- assign home_header_image = "" -%}
+  {%- assign home_title_container = "" -%}
+  {%- assign home_title = "" -%}
+{%- endif -%}
+
+<div class="header-wrapper">
+  <header class="page-header {{ post_header }} {{ home_header }}">
+    {%- if page.header_image -%}
+      <img class="header-image {{ home_header_image }}" src="{{ page.header_image }}" alt="{{ page.title }}">
+    {%- endif -%}
+
+    {%- if page.hide_title != true -%}
+      <div class="page-title-container {{ home_title_container }} {{ container_with_header_image }} {{ post_title }} {{ title }}">
+        <h1 class="page-title {{ home_title }} {{ title_with_header_image }}">{{ page.title }}</h1>
+      </div>
+    {%- endif -%}
+    
+    {%- if page.layout == "post" -%}
+      {%- include header_post.html -%}
+    {%- endif -%}
+  </header>
+</div>

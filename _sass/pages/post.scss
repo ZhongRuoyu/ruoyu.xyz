@@ -1,0 +1,62 @@
+article.post {
+    > div.post-content {
+        a {
+            text-decoration: underline;
+        }
+        a.footnote {
+            text-decoration: none;
+        }
+
+        div.footnotes {
+            margin-top: 3em;
+
+            a.reversefootnote {
+                text-decoration: none;
+                user-select: none;
+            }
+
+            p {
+                margin: 0.5em auto;
+            }
+        }
+    }
+
+    header.post-header div.post-author-date {
+        margin: 1em auto;
+        color: $gamma;
+        line-height: 2em;
+
+        > div.post-authors,
+        > div.post-date-published,
+        > div.post-date-updated {
+            display: block;
+        }
+
+        > div.post-authors > div.post-author {
+            display: inline-block;
+
+            > span.twitter-link-container {
+                &::before {
+                    content: " ";
+                }
+
+                > a.twitter-link {
+                    > img.twitter-icon {
+                        display: inline-block;
+                        width: 2em;
+                        max-width: initial;
+                        margin: 0;
+                        user-select: none;
+                        vertical-align: middle;
+                    }
+
+                    @media print {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// see also pages/core.scss

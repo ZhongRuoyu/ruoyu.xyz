@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-sizing: border-box;
+    width: 90%;
+    max-width: $max-width;
+    min-width: $min-width;
+    min-height: 100vh;
+    font-family: $sans;
+    font-size: $font-normal;
+    overflow-wrap: break-word;
+    color: $beta;
+    transition: $default-transition;
+
+    @media #{$tablet} {
+        min-height: $min-height-tablet;
+    }
+    @media #{$mobile} {
+        min-height: $min-height-mobile;
+    }
+    @media print {
+        display: initial;
+    }
+}
+
+.noprint,
+.noprint * {
+    @media print {
+        display: none;
+    }
+}
+
+// narrow_content
+body.narrow {
+    max-width: $narrow-max-width;
+}

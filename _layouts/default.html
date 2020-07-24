@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+{%- assign title = page.title | slugify -%}
+{%- if page.centre_content == true -%}
+  {%- assign centre = "centre" -%}
+{%- else -%}
+  {%- assign centre = "" -%}
+{%- endif -%}
+{%- if page.narrow_content == true -%}
+  {%- assign narrow = "narrow" -%}
+{%- else -%}
+  {%- assign narrow = "" -%}
+{%- endif -%}
+{%- if page.home -%}
+  {%- assign home = "home" -%}
+{%- else -%}
+  {%- assign home = "" -%}
+{%- endif -%}
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="{{ centre }} {{ narrow }} {{ home }}">
+
+    {%- if page.home != true -%}
+      {%- include navigation.html -%}
+    {%- endif -%}
+
+    <main id="page-content" class="page-content {{ centre }} {{ narrow }} {{ home }}" aria-label="Content">
+      <div class="wrapper {{ centre }} {{ title }} {{ home }}">
+
+        {%- if page.layout != "post" -%}
+          {%- include header.html -%}
+        {%- endif -%}
+
+        {{ content }}
+
+        {%- if page.home == true -%}
+          {%- include navigation.html -%}
+        {%- endif -%}
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

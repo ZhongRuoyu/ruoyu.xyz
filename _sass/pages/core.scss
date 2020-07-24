@@ -1,0 +1,58 @@
+// home
+div.wrapper.home img.header-image {
+    width: 10rem !important;
+    border-radius: 100%;
+    @include image-frame-animation;
+}
+
+// about
+div.wrapper.about .author {
+    padding-top: 1em;
+}
+
+// 404
+div.wrapper.page-not-found img.header-image {
+    width: 10rem !important;
+    border-radius: 100%;
+    @include image-frame-animation;
+}
+
+// tags
+div.header-wrapper > header.post-header div.post-author:not(:last-child)::after,
+div.post-tags-wrapper > span.post-tag-container:not(:last-child)::after {
+    content: "|";
+    padding: 0 1ch;
+}
+div.site-tags-wrapper,
+div.post-tags-wrapper {
+    text-align: center;
+    margin: 3rem auto 0;
+    padding: 1rem;
+    width: max-content;
+    max-width: 90%;
+    min-width: 36%;
+    border-top: 1px solid $epsilon;
+    border-bottom: 1px solid $epsilon;
+    line-height: 2em;
+}
+
+div.site-tags-wrapper {
+    width: 80%;
+
+    > span.site-tag-container {
+        display: block;
+    }
+}
+
+div.tag-catalogue-container {
+    margin: 5rem auto 2rem;
+
+    a.tag-catalogue-title-link {
+
+        h2.tag-catalogue-title {
+            text-align: center;
+            font-weight: normal;
+        }
+    }
+}
+// see also pages/category.css

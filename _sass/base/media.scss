@@ -1,0 +1,50 @@
+img, figure, iframe, div.video-container-parent {
+    display: block;
+    max-width: 90%;
+    margin: 2em auto;
+    text-align: center;
+    border-radius: $border-radius;
+
+    @media #{$mobile} {
+        max-width: 100%;
+    }
+}
+
+img {
+    width: 80%;
+
+    @media #{$mobile} {
+        width: 90%;
+    }
+}
+
+figure {
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    figcaption {
+        font-size: $font-small;
+        margin: 1em auto;
+    }
+}
+
+div.video-container {
+    position: relative;
+    padding-top: 56.25%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    /* &.aspect-ratio-4-3 {
+        padding-top: 75%;
+    } */
+}

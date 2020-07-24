@@ -1,0 +1,63 @@
+{%- if site.hide_info != true and page.hide_info != true and site.hide_date_modified != true -%}
+  {%- assign show_info = true -%}
+{%- else -%}
+  {%- assign show_info = false -%}
+{%- endif -%}
+{%- if site.hide_author != true and page.hide_author != true and page.author -%}
+  {%- assign show_author = true -%}
+{%- else -%}
+  {%- assign show_author = false -%}
+{%- endif -%}
+{%- if site.hide_date != true and page.hide_date != true and page.date -%}
+  {%- assign show_date = true -%}
+{%- else -%}
+  {%- assign show_date = false -%}
+{%- endif -%}
+{%- if site.hide_date_updated != true and page.hide_date_updated != true and page.date_updated -%}
+  {%- assign show_date_updated = true -%}
+{%- else -%}
+  {%- assign show_date_updated = false -%}
+{%- endif -%}
+
+{%- if show_info -%}
+  <div class="post-info">
+
+    {%- if show_author or show_date or show_date_updated -%}
+      <div class="post-author-date">
+
+        {%- if show_author -%}
+          <div class="post-authors">
+            {%- for author in page.author -%}
+              {%- if author == site.author and site.hide_author_twitter != true and page.hide_author_twitter != true -%}
+                {%- assign show_twitter = true -%}
+              {%- else -%}
+                {%- assign show_twitter = false -%}
+              {%- endif -%}
+              <div class="post-author">{{ author }}{%- if show_twitter -%}<span class="twitter-link-container"><a class="twitter-link" href="https://twitter.com/{{ site.twitter.username | replace:"@","" }}"><img class="twitter-icon" src="/assets/images/icons/twitter_logo_blue.svg" alt="Twitter"></a></span>{%- endif -%}</div> 
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        {%- if show_date -%}
+          <div class="post-date-published">
+            Published
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+              {{ page.date | date: "%-d %B %Y" }}
+            </time>
+          </div>
+        {%- endif -%}
+
+        {%- if show_date_updated -%}
+          <div class="post-date-updated">
+            Updated
+            <time datetime="{{ page.date_updated | date_to_xmlschema }}">
+              {{ page.date_updated | date: "%-d %B %Y" }}
+            </time>
+          </div>
+        {%- endif -%}
+
+      </div>
+    {%- endif -%}
+
+  </div>
+{%- endif -%}
