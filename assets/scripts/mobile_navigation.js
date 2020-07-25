@@ -1,9 +1,11 @@
 window.onresize = windowResized;
 
 function windowResized() {
-    if (!(window.matchMedia("screen and (max-width: 425px)").matches) && document.getElementById("mobile-navigation-check").style.display == "block") {
-            showNormalNavigationBar();
-    }    
+    if (document.getElementById("mobile-navigation-check")) {
+        if (!(window.matchMedia("screen and (max-width: 425px)").matches) && document.getElementById("mobile-navigation-check").style.display == "block") {
+                showNormalNavigationBar();
+        }
+    }
 }
 
 function navigationLinkHome() {
