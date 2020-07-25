@@ -6,7 +6,8 @@ layout: default
 
 {%- for post in site.posts -%}
   {%- assign post_categories = post.categories | downcase -%}
-  {%- if post_categories contains category_name -%}
+  {%- if post_categories contains category_name
+      and post.archived != true -%}
     {%- assign found = true -%}
     {%- break -%}
   {%- endif -%}
@@ -17,7 +18,8 @@ layout: default
     <div class="posts-list">
       {%- for post in site.posts -%}
         {%- assign post_categories = post.categories | downcase -%}
-        {%- if post_categories contains category_name -%}
+        {%- if post_categories contains category_name
+            and post.archived != true -%}
           <a class="posts-list-item-link" href="{{ post.url }}">
             <div class="posts-list-item-date-wrapper">
               <time class="posts-list-item-date" datetime="{{ post.date | date_to_xmlschema }}">
