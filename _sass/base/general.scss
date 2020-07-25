@@ -14,6 +14,7 @@ body {
     font-family: $sans;
     font-size: $font-normal;
     overflow-wrap: break-word;
+    word-break: break-word;
     color: $beta;
     transition: $default-transition;
 
