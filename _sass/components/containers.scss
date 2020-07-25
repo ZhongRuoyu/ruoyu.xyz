@@ -27,10 +27,6 @@ body > main.page-content {
         @media #{$mobile-smallest} {
             padding: 0 10%;
         }
-
-        &.centre {
-            padding: 0 !important;
-        }
     }
 }
 
