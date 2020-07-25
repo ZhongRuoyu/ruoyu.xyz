@@ -39,13 +39,13 @@ nav.navigation {
         font-size: $font-normal;
         text-align: center;
         margin: 2em 0;
+        width: max-content;
+        max-width: 72vw;
+        min-width: 36vw;
 
         > ul.navigation-list {
             margin: auto;
             padding: 1rem;
-            width: max-content;
-            max-width: 72vw;
-            min-width: 36vw;
             border-top: 1px solid #e6e6e6;
             border-bottom: 1px solid #e6e6e6;
             line-height: 2em;
@@ -103,19 +103,19 @@ nav.navigation {
             width: 100%;
             > ul.navigation-list {
                 height: max-content;
-                
+
                 > li.navigation-list-item {
                     display: block;
                     font-size: $font-normal;
                     text-align: left;
                     height: 2em;
-    
+
                     &.navigation-list-item-home {
                         display: block;
                         height: 3em;
                         padding-bottom: 1em;
                     }
-    
+
                     &:not(.navigation-list-item-home) {
                         padding: 1em;
                         display: none;
