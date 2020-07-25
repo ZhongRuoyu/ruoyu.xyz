@@ -2,7 +2,8 @@
 layout: compress
 ---
 {%- assign title = page.title | slugify -%}
-{%- if page.centre_content == true -%}
+{%- if page.centre_content == true
+    or page.layout == "redirect" -%}
   {%- assign centre = "centre" -%}
 {%- else -%}
   {%- assign centre = "" -%}

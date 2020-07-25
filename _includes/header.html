@@ -1,9 +1,9 @@
 {%- if page.layout == "post" -%}
-  {%- assign title = page.title | slugify -%}
+  {%- assign title_slugified = page.title | slugify -%}
   {%- assign post_header = "post-header" -%}
   {%- assign post_title = "post-title" -%}
 {%- else -%}
-  {%- assign title = "" -%}
+  {%- assign title_slugified = "" -%}
   {%- assign post_header = "" -%}
   {%- assign post_title = "" -%}
 {%- endif -%}
@@ -25,6 +25,11 @@
   {%- assign home_title_container = "" -%}
   {%- assign home_title = "" -%}
 {%- endif -%}
+{%- if page.layout != "redirect" -%}
+  {%- assign title = page.title -%}
+{%- else -%}
+  {%- assign title = "Redirecting…" -%}
+{%- endif -%}
 
 <div class="header-wrapper">
   <header class="page-header {{ post_header }} {{ home_header }}">
@@ -33,8 +38,8 @@
     {%- endif -%}
 
     {%- if page.hide_title != true -%}
-      <div class="page-title-container {{ home_title_container }} {{ container_with_header_image }} {{ post_title }} {{ title }}">
-        <h1 class="page-title {{ home_title }} {{ title_with_header_image }}">{{ page.title }}</h1>
+      <div class="page-title-container {{ home_title_container }} {{ container_with_header_image }} {{ post_title }} {{ title_slugified }}">
+        <h1 class="page-title {{ home_title }} {{ title_with_header_image }}">{{ title }}</h1>
       </div>
     {%- endif -%}
     
