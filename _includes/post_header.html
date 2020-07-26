@@ -13,16 +13,16 @@
 {%- else -%}
   {%- assign show_date = false -%}
 {%- endif -%}
-{%- if site.hide_date_updated != true and page.hide_date_updated != true and page.date_updated -%}
-  {%- assign show_date_updated = true -%}
+{%- if site.hide_last_modified_at != true and page.hide_last_modified_at != true and page.last_modified_at -%}
+  {%- assign show_last_modified_at = true -%}
 {%- else -%}
-  {%- assign show_date_updated = false -%}
+  {%- assign show_last_modified_at = false -%}
 {%- endif -%}
 
 {%- if show_info -%}
   <div class="post-info">
 
-    {%- if show_author or show_date or show_date_updated -%}
+    {%- if show_author or show_date or show_last_modified_at -%}
       <div class="post-author-date">
 
         {%- if show_author -%}
@@ -47,11 +47,11 @@
           </div>
         {%- endif -%}
 
-        {%- if show_date_updated -%}
+        {%- if show_last_modified_at -%}
           <div class="post-date-updated">
             Updated
-            <time datetime="{{ page.date_updated | date_to_xmlschema }}">
-              {{ page.date_updated | date: "%-d %B %Y" }}
+            <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+              {{ page.last_modified_at | date: "%-d %B %Y" }}
             </time>
           </div>
         {%- endif -%}

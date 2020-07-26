@@ -25,7 +25,7 @@ hide_info: false
 hide_author: false
 hide_author_twitter: false
 hide_date: false
-hide_date_updated: false
+hide_last_modified_at: false
 hide_tags: false
 
 twitter:

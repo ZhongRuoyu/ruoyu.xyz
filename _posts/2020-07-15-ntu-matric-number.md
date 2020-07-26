@@ -2,7 +2,7 @@
 title: The Check Digit Algorithm for NTU Matric Numbers
 category: projects
 date: 2020-07-15 05:16 +8
-date_updated: 2020-07-24 18:13 +8
+last_modified_at: 2020-07-24 18:13 +8
 tag:
 - Computer Science
 - Algorithm
