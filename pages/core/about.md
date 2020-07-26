@@ -2,6 +2,7 @@
 title: About
 layout: post
 permalink: /about/
+description: Find information about Ruoyu, and about ruoyu.xyz as well.
 ---
 Welcome to my site!
 
