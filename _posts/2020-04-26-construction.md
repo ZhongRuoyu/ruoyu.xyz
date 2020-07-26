@@ -1,7 +1,7 @@
 ---
 title: Site Construction Finished
-date: 2020-04-26 13:16 +8
-last_modified_at: 2020-07-24 17:33 +8
+date: 2020-04-26 13:16 +08
+last_modified_at: 2020-07-24 17:33 +08
 tag: Maintenance
 category: blog
 description: The first stage of construction of this site is finally finished.

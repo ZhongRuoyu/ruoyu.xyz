@@ -1,7 +1,7 @@
 ---
 title: My Personal Site
 category: projects
-date: 2020-08-01 22:03 +8
+date: 2020-08-01 22:03 +08
 tag:
 - Maintenance
 - HTML

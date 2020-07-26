@@ -1,7 +1,7 @@
 ---
 title: Computer Science!
 category: blog
-date: 2020-06-13 01:40 +8
+date: 2020-06-13 01:40 +08
 tag: [Computer Science, NTU]
 description: I have been offered the Computer Science programme!
 ---
