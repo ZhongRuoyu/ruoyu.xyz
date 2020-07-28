@@ -27,7 +27,7 @@ function showNavigationBar() {
     let list_items = document.getElementsByClassName("mobile-navigation-list-item-animated");
     let list_items_count = list_items.length;
     let height = calculateHeight(list_items_count) + 48;
-    $(document.getElementById("page-content")).animate({paddingTop: (height.toString() + "px")}, 1000 * (list_items_count + 1), "swing").delay(200);
+    $(document.getElementById("page-content")).animate({paddingTop: (height.toString() + "px")}, 100 * (list_items_count + 1), "swing").delay(200);
     for (let i = 0; i < list_items_count; i++) {
         $(list_items[i]).delay(100 * (i + 1)).fadeIn(300, "swing").delay(100 * (list_items_count - i - 1));
     }
@@ -39,7 +39,7 @@ function hideNavigationBar() {
     for (let i = list_items_count - 1; i >= 0; i--) {
         $(list_items[i]).delay(100 * (list_items_count - i - 1)).fadeOut(300, "swing").delay(100 * (i + 1));
     }
-    $(document.getElementById("page-content")).delay(200).animate({paddingTop: "7rem"}, 1000 * (list_items_count + 1), "swing", function() {
+    $(document.getElementById("page-content")).delay(200).animate({paddingTop: "7rem"}, 100 * (list_items_count + 1), "swing", function() {
         document.getElementById("page-content").removeAttribute("style");
     });
     document.getElementById("mobile-navigation-check").style.display = "none";
