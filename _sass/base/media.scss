@@ -13,16 +13,16 @@ img, figure, iframe, div.video-container-parent {
 img {
     width: 80%;
 
-    @media #{$mobile} {
-        width: 90%;
-    }
-
     &.narrow {
         width: 50%;
     }
 
     &.narrower {
         width: 36%;
+    }
+
+    @media #{$mobile} {
+        width: 90%;
     }
 }
 
