@@ -6,28 +6,27 @@ tag:
 - Science Fiction
 category: blog
 description: A study on science fiction.
-published: false
 ---
 
-This is an essay on science fiction, originally written in March for an assignment. The question for the assignment is:
+This is an essay on science fiction, originally written in March for an assignment. Here is the original question:
 
 > Write a persuasive essay on the following question:  
 > “Reading science fiction may be entertaining but otherwise it has little real value.” Do you agree?
 
-I have spent a lot of time working on this essay, especially on the research. -- And that's why I decided to put it here.
+I have spent a lot of time working on this essay, especially on the research. -- And that's why I decided to put it here. If you have any suggestions, please let me know.
 
-This version has been modified by our tutor, Ms Esther Chin. Very much appreciated.
+This version has been modified by our tutor Ms Chin. Very much appreciated.
 
-<div class="breaker"></div>
+<hr>
 
 Science fiction, one of the most popular fiction genres, is an outlet where writers can unleash their fantasies about the future [(Hornby, 2015)](#references). Some may argue that reading science fiction only offers entertainment and has hardly any real value; however, this is a misinterpretation. Reading science fiction is much more than just entertainment; it develops people’s interest in science, inspires people to create innovative technological products, and leads people to reflect on themselves philosophically.
 
-<figure class="floatright">
+Firstly, science fiction cultivates readers’ interest in science. Since it depicts the authors’ imagination regarding the future, its uniqueness lies in its ability to illustrate the enormity and complexity of the cosmos [(Hornby, 2015; Liu, 2013)](#references). This adds attractiveness to science fiction, and enables it to not only entertain readers, but also inspire them to discover more about science. Celebrated science fiction writers Isaac Asimov and Liu Cixin, for instance, are science enthusiasts who developed their interest under the influence of science fiction [(Leslie, 2020; Liu, 2013)](#references). Another example is Robert Goddard, the pioneer of modern rocketry, whose imagination was boosted by *War of the Worlds*, H. G. Wells’ science fiction novel [(Lehman & Lehman, 2019)](#references). To many, science fiction is not just about entertaining; it plays a significant role in triggering their interest in science.
+
+<figure>
 <img class="narrow" src="/assets/images/posts/2020-08/isaac_asimov.jpg" alt="Isaac Asimov">
 <figcaption>Isaac Asimov</figcaption>
 </figure>
-
-Firstly, science fiction cultivates readers’ interest in science. Since it depicts the authors’ imagination regarding the future, its uniqueness lies in its ability to illustrate the enormity and complexity of the cosmos [(Hornby, 2015; Liu, 2013)](#references). This adds attractiveness to science fiction, and enables it to not only entertain readers, but also inspire them to discover more about science. Celebrated science fiction writers Isaac Asimov and Liu Cixin, for instance, are science enthusiasts who developed their interest under the influence of science fiction [(Leslie, 2020; Liu, 2013)](#references). Another example is Robert Goddard, the pioneer of modern rocketry, whose imagination was boosted by *War of the Worlds*, H. G. Wells’ science fiction novel [(Lehman & Lehman, 2019)](#references). To many, science fiction is not just about entertaining; it plays a significant role in triggering their interest in science.
 
 Additionally, science fiction provides ideas for technological innovation. Because of its futuristic theme, imaginative inventions can often be found as an essential element. A notable number of these concepts have been captured by innovators, who have managed to make them come true. The submarine illustrated in Jules Verne’s science fiction classic, *Twenty Thousand Leagues Under the Sea*, is an example. It inspired Simon Lake, the establisher of submarine science, to build the first full-size submarine in the United States [(Lake & Corey, 1938; Manchester, 1943)](#references). Another example is Jack Cover’s invention of the taser, an electroshock weapon originally depicted in the novel *Tom Swift and His Electric Rifle* by Victor Appleton [(Weber, 2009)](#references). For brilliant innovators like Lake and Cover, reading science fiction is more than entertaining; it is the origin of their creativity, which leads them to the road of innovation. Therefore, science fiction not only entertains people, but stimulates technological innovations.
 
@@ -39,7 +38,7 @@ Additionally, science fiction provides ideas for technological innovation. Becau
 Many people think that science fiction centres on imagined scenarios and hence, are mere entertainment. In fact, science fiction educates readers to reflect on themselves philosophically. Science fiction works are not just written for entertainment; through imagination, authors share their visions of the undiscovered world and encourage philosophical discussion. For instance, Philip K. Dick’s work *Do Androids Dream of Electric Sheep?* overturns the common understanding of human minds, and encourages readers to ponder the real difference between humans and androids when the boundary between them becomes blurred [(Schneider, 2016)](#references). Additionally, several George J. Annas’ works, like *The Man on the Moon*, are dedicated to motivating people to consider the potential threats of humans’ progress in genetic engineering [(Schneider, 2016; Annas, 2000)](#references). These novels are examples of philosophical and thought-provoking science fiction works based on human nature. They can expand readers’ minds and inspire real changes through the authors’ philosophical questions about human nature. This goes far beyond the entertaining traits of science fiction.
 
 <figure>
-<img class="narrow" src="/assets/images/posts/2020-08/blade_-_runner.png" alt="A poster for Blade Runner">
+<img class="narrow" src="/assets/images/posts/2020-08/blade_runner.png" alt="A poster for Blade Runner">
 <figcaption>A poster for <cite>Blade Runner</cite>, a film based on <cite>Do Androids Dream of Electric Sheep?</cite></figcaption>
 </figure>
 
