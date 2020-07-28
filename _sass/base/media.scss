@@ -16,6 +16,14 @@ img {
     @media #{$mobile} {
         width: 90%;
     }
+
+    &.narrow {
+        width: 50%;
+    }
+
+    &.narrower {
+        width: 36%;
+    }
 }
 
 figure {
