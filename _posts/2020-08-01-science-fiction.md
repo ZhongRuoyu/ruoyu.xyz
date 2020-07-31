@@ -1,6 +1,6 @@
 ---
 title: "Science Fiction: Much More Than Just Entertainment"
-date: 2020-08-01 11:30 +08
+date: 2020-08-01 01:06 +08
 tag:
 - Essay
 - Science Fiction
