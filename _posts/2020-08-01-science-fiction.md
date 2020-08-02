@@ -38,7 +38,7 @@ Additionally, science fiction provides ideas for technological innovation. Becau
 Many people think that science fiction centres on imagined scenarios and hence, are mere entertainment. In fact, science fiction educates readers to reflect on themselves philosophically. Science fiction works are not just written for entertainment; through imagination, authors share their visions of the undiscovered world and encourage philosophical discussion. For instance, Philip K. Dick’s work *Do Androids Dream of Electric Sheep?* overturns the common understanding of human minds, and encourages readers to ponder the real difference between humans and androids when the boundary between them becomes blurred [(Schneider, 2016)](#references). Additionally, several George J. Annas’ works, like *The Man on the Moon*, are dedicated to motivating people to consider the potential threats of humans’ progress in genetic engineering [(Schneider, 2016; Annas, 2000)](#references). These novels are examples of philosophical and thought-provoking science fiction works based on human nature. They can expand readers’ minds and inspire real changes through the authors’ philosophical questions about human nature. This goes far beyond the entertaining traits of science fiction.
 
 <figure>
-<img class="narrow" src="/assets/images/posts/2020-08/blade_runner.png" alt="A poster for Blade Runner">
+<img class="narrow" src="/assets/images/posts/2020-08/blade_runner.jpg" alt="A poster for Blade Runner">
 <figcaption>A poster for <cite>Blade Runner</cite>, a film based on <cite>Do Androids Dream of Electric Sheep?</cite></figcaption>
 </figure>
 
