@@ -2,14 +2,13 @@
 title: The Check Digit Algorithm for NTU Matric Numbers
 category: projects
 date: 2020-07-15 05:16 +08
-last_modified_at: 2020-08-10 16:04 +08
+last_modified_at: 2020-07-24 18:13 +08
 tag:
 - Computer Science
 - Algorithm
 - NTU
 - C/C++
 description: The discovery of the check digit algorithm for NTU matriculation numbers.
-use_latex: true
 ---
 
 Yesterday, while checking my matriculation stuff, an idea crossed my mind -- I already knew that the ending character of our matriculation number was a check digit, but I had never tried to find the algorithm for it. After having a look at several bridging numbers (matric numbers starting with '`B`'), the modulo 11 algorithm came into my mind. Then I decided to start doing the reverse engineering, which proved to be quite easy.
@@ -21,17 +20,17 @@ Let's get started.
 It is reasonable to guess that the check digit algorithm for our matric numbers shares the same pattern with that for the NRIC number / FIN, based on the following facts:
 
 * The pattern of NTU matric numbers (e.g. `U2024197H`) is similar to that of the Singapore NRIC number / FIN[^1];
-* On observing dozens of data, it can be noticed that the check digit ranges from \\(a\\) to `L` excluding `I` (possibly because it is very visually similar to the number `1`), and that is a total of 11 possibilities. The case is the same for the NRIC number / FIN[^2].
+* On observing dozens of data, it can be noticed that the check digit ranges from `A` to `L` excluding `I` (possibly because it is very visually similar to the number `1`), and that is a total of 11 possibilities. The case is the same for the NRIC number / FIN[^2].
 
 That's the modulo 11 algorithm. It's a very common algorithm used to calculate check digits: it's used in ISBN, the UK NHS number, the Chinese citizen ID number, etc.[^3] The reverse engineering is very straightforward, provided that the number of digits is not so large and that we have an adequate amount of sample data.
 
 First, let's assume that the algorithm for our matric numbers is indeed the modulo 11. Taking the above-mentioned matric number (`U2024197H`) as an example, the procedure for calculating the check digit using the modulo 11 algorithm is as follows:
 
 1. Put the 11 possible check digits in an ordered array `ALPHA[11]`: `ALPHA[11] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L'}`.
-2. Take out the numeric digits[^4] in the matric number, namely \\(d_0\\) to \\(d_6\\): `{2, 0, 2, 4, 1, 9, 7}`.
-3. Assuming the weighting factors for the 7 digits (\\(d_0\\) to \\(d_6\\)) are \\(w_0\\) to \\(w_6\\) respectively. Then multiply each digit with its corresponding weighting factor, and add them together: \\[S = \sum_{n = 0}^{6} d_n w_n .\\]
-4. Add an offset number \\(a\\), which may be any integer from 0 to 10, to produce the offset sum \\(S_o\\) ('o' denotes "offset"): \\[S_o = S + a.\\]
-5. Divide the offset sum \\(S_o\\) by 11, and get the remainder \\(R\\): \\[R = S_o \bmod 11.\\]
+2. Take out the numeric digits[^4] in the matric number, namely `d0` to `d6`: `{2, 0, 2, 4, 1, 9, 7}`.
+3. Assuming the weighting factors for the 7 digits (`d0` to `d6`) are `w0` to `w6` respectively. Then multiply each digit with its corresponding weighting factor, and add them together: `S = d0*w0 + d1*w1 + d2*w2 + d3*w3 + d4*w4 + d5*w5 + d6*w6`.
+4. Add an offset number `a`, which may be any integer from 0 to 10, to produce the offset sum `S_o` ('o' denotes "offset"): `S_o = S + a`.
+5. Divide the offset sum `S_o` by 11, and get the remainder `R`: `R = S_o % 11`.
 6. The check digit is just `ALPHA[R]`.
 
 ## Attempting to Find the Weighting Coefficients and the Offset Number
@@ -55,21 +54,21 @@ The three sets of weighting coefficients and the offset number are as follow:
 
 For matric numbers starting with '`U`', obtained before (and including) 2016 ("the former set", calculated by Senpai Zhang):
 
-|\\(w_0\\)|\\(w_1\\)|\\(w_2\\)|\\(w_3\\)|\\(w_4\\)|\\(w_5\\)|\\(w_6\\)|\\(a\\)|
-|---------|---------|---------|---------|---------|---------|---------|-------|
-|   10    |    7    |    4    |    3    |    2    |    9    |    8    |   0   |
+|`w0`|`w1`|`w2`|`w3`|`w4`|`w5`|`w6`|`a`|
+|----|----|----|----|----|----|----|---|
+|10  |7   |4   |3   |2   |9   |8   |0  |
 
 For matric numbers starting with '`U`', obtained after (and including) 2018:
 
-|\\(w_0\\)|\\(w_1\\)|\\(w_2\\)|\\(w_3\\)|\\(w_4\\)|\\(w_5\\)|\\(w_6\\)|\\(a\\)|
-|---------|---------|---------|---------|---------|---------|---------|-------|
-|    6    |    7    |    4    |    3    |    8    |    9    |    2    |   4   |
+|`w0`|`w1`|`w2`|`w3`|`w4`|`w5`|`w6`|`a`|
+|----|----|----|----|----|----|----|---|
+|6   |7   |4   |3   |8   |9   |2   |4  |
 
 For bridging numbers (matric numbers starting with '`B`'):
 
-|\\(w_0\\)|\\(w_1\\)|\\(w_2\\)|\\(w_3\\)|\\(w_4\\)|\\(w_5\\)|\\(w_6\\)|\\(a\\)|
-|---------|---------|---------|---------|---------|---------|---------|-------|
-|   10    |    7    |    4    |    3    |    2    |    9    |    8    |   9   |
+|`w0`|`w1`|`w2`|`w3`|`w4`|`w5`|`w6`|`a`|
+|----|----|----|----|----|----|----|---|
+|10  |7   |4   |3   |2   |9   |8   |9  |
 
 Due to the limitations of the sample data, matric numbers starting with '`U`' and obtained in 2017 have not been studied. The data set should be the same as that in either 2016 or 2018.
 
