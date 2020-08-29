@@ -1,7 +1,7 @@
 ---
 title: Site Construction Finished
 date: 2020-04-26 13:16 +08
-last_modified_at: 2020-07-24 17:33 +08
+last_modified_at: 2020-08-29 14:31 +08
 tag: Maintenance
 category: blog
 description: The first stage of construction of this site is finally finished.
@@ -9,9 +9,9 @@ description: The first stage of construction of this site is finally finished.
 
 I am very happy to let you know that after hours of work, the (first stage of) construction of this site is finally finished! Here is some of the work:
 
-* [About](/about) information added & styles improved (And I've created a [Chinese version](/zh/about) too!);
+* [About](/about) information added & styles improved (And I've created a Chinese version too![^1]);
 * [Music](/music) category added & several associated source code improvements;
-* New fonts applied: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro), two of my favourites[^1];
+* New fonts applied: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro), two of my favourites[^2];
 * Some code optimisation;
 * Some hidden information added (where is it?);
 * …
@@ -22,4 +22,6 @@ HTML is still very new to me, but in the past few hours I have learned so much a
 
 There are still several minor issues in the site. I will have them gradually solved.
 
-[^1]: Update: due to an compatibility issue, the fonts have been changed to [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) and [Noto Serif](https://fonts.google.com/specimen/Noto+Serif). For the monospace font family, it uses a series of default fonts on different systems to ensure the quality of display.
+[^1]: The page was removed after the reconstruction of the site, which was finished on 24 July 2020.
+
+[^2]: Update: due to an compatibility issue, the fonts have been changed to [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) and [Noto Serif](https://fonts.google.com/specimen/Noto+Serif). For the monospace font family, it uses a series of default fonts on different systems to ensure the quality of display.
