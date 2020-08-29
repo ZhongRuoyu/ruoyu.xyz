@@ -1,13 +1,14 @@
 ---
-title: My Music Playlist - May 2020
+title: My Music Playlist & Some Thoughts - May 2020
 date: 2020-05-29 01:06 +08
 last_modified_at: 2020-07-24 17:58 +08
 tag:
-    - Music
-    - Playlist
-    - Musical
-    - Anime
-    - Maintenance
+- Music
+- Playlist
+- Musical
+- Anime
+- Maintenance
+- Thoughts
 category: blog
 description: My music playlist for May 2020, and some update on the site construction status.
 ---
