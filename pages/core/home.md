@@ -4,7 +4,7 @@ permalink: /
 home: true
 centre_content: true
 header_image: /assets/images/logo/logo.png
-description: Welcome to Ruoyu’s site. Glad you’re here.
+description: Time, truth, and hearts.
 ---
 
-Welcome. Glad you're here.
+Time, truth, and hearts.
