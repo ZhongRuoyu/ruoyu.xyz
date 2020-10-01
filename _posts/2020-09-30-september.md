@@ -22,5 +22,5 @@ It **will** be better.
 
 Had a terrible dream last night. A hard rain's gonna fall.
 
-> Fate whispers to the warrior, "*You can not withstand the storm.*"  
+> Fate whispers to the warrior, "*You cannot withstand the storm.*"  
 > The warrior whispers back, "*I am the storm.*"
