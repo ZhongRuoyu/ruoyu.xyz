@@ -2,6 +2,7 @@
 title: ... And There September Goes
 category: blog
 date: 2020-09-30 23:50 +08
+last_modified_at: 2020-10-01 08:38 +08
 description: End-of-September thoughts.
 ---
 
@@ -11,4 +12,8 @@ Had a silent walk tonight, throwing all thoughts out of my mind. Though not reli
 
 It **will** be better.
 
-<div class="video-container-wrapper"><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/sZTpLvsYYHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+<div class="video-container-wrapper"><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/YLp2cW7ICCU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+
+<hr>
+
+Had a terrible dream last night. A hard rain's gonna fall.
