@@ -11,6 +11,7 @@ tag:
 - Thoughts
 category: blog
 description: My music playlist for May 2020, and some update on the site construction status.
+archived: true
 ---
 
 Here comes my most recent music playlist.

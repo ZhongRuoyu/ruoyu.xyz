@@ -4,6 +4,7 @@ category: blog
 date: 2020-06-13 01:40 +08
 tag: [Computer Science, NTU]
 description: I have been offered the Computer Science programme!
+archived: true
 ---
 
 **Computer Science!!!**
