@@ -4,6 +4,7 @@ category: blog
 date: 2020-10-14 09:40 +08
 last_modified_at: 2020-10-14 15:50 +08
 description: A few more excerpts from the book that influenced me much.
+archived: true
 ---
 
 This week is not as busy as I thought. I feel like reading books; haven't been reading for a long, long while.
