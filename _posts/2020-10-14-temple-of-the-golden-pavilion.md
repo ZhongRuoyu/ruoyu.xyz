@@ -2,8 +2,8 @@
 title: More Excerpts from the Temple of the Golden Pavilion
 category: blog
 date: 2020-10-14 09:40 +08
+last_modified_at: 2020-10-14 15:50 +08
 description: A few more excerpts from the book that influenced me much.
-archived: true
 ---
 
 This week is not as busy as I thought. I feel like reading books; haven't been reading for a long, long while.
@@ -23,3 +23,7 @@ I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio M
 > 南泉和尚所以斩猫，是因为斩断**自我的迷妄**，斩断**妄念妄想的根源**。通过无情的实践，把猫首斩掉，以此寓意斩断一切矛盾、对立、自己和他人的争执。如果把这个叫做“杀人刀”，那赵州的作为就是“活人剑”。他将沾满泥泞的被人蔑视的草鞋顶在头上，以这种无限的宽容实践了菩萨之道。
 
 > “这是俗世。”我思忖着，“战争结束了，在这灯下，人们被邪恶的思想所驱动。无数男女在灯下相互凝视着对方的脸，嗅到一股逼将过来的死一般的行为的气味。刚觉得这无数的灯全是邪恶的灯，我的心就得到了慰藉。但愿我心中的邪恶繁衍，无计其数地繁衍，发出了闪光，并与眼前无计其数的灯一一保持照应！但愿包围着邪恶的我心中的黑暗，与包围着这无计其数的灯的夜是相等的！”
+
+Seems that it's not that good to be too free. I guess I'll have a better sleep tonight.
+
+Well, at least Beethoven's Symphony No. 7 is good. Both the Seiji Ozawa & Saito Kinen version, recorded in 2016/17, and the very famous Carlos Cleiber & Vienna one from 1976.
