@@ -9,7 +9,7 @@ This week is not as busy as I thought. I feel like reading books; haven't been r
 
 I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio Mishima influenced me a lot. Though I don't feel like writing a review, below are some excerpts. The excerpts are in Chinese, translated by 唐月梅 (Tang Yuemei).
 
-> 结巴的人为了发出第一声而焦灼万分。他就好像一只企图从内界浓密的粘鸟胶摆脱出来而拼死挣扎的小鸟，好不容易挣脱出来，却为时已晚矣诚然，在我苦苦挣扎的时候，外界的现实似乎也有罢手等待着我的情况。可是等待着我的现实，已不是新鲜的现实。纵令我费劲工夫好容易到达了外界，那里却又总是瞬间变色，完全错位了。……于是我想：惟有这样对我才最合适，失去新鲜度的现实、散发着半腐臭的现实，总是横躺在我的眼前。
+> 结巴的人为了发出第一声而焦灼万分。他就好像一只企图从内界浓密的粘鸟胶摆脱出来而拼死挣扎的小鸟，好不容易挣脱出来，却为时已晚矣。诚然，在我苦苦挣扎的时候，外界的现实似乎也有罢手等待着我的情况。可是等待着我的现实，已不是新鲜的现实。纵令我费劲工夫好容易到达了外界，那里却又总是瞬间变色，完全错位了。……于是我想：惟有这样对我才最合适，失去新鲜度的现实、散发着半腐臭的现实，总是横躺在我的眼前。
 
 > 迄今我不曾见过这样一张充满强烈的拒绝感的脸。我认为自己的脸是被世界拒绝的脸，可是有为子的脸却是拒绝世界的脸。月光无情地流泻在她的额头、眼睛、鼻梁和脸颊上，可是这张坚定的脸只是被月光荡涤着。她只要稍微动一动眼睛、稍微动一动嘴巴，她企图拒绝的世界就会以此为信号，从这里迅速崩溃的吧。
 
