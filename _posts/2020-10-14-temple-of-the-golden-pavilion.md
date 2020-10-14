@@ -3,6 +3,7 @@ title: More Excerpts from the Temple of the Golden Pavilion
 category: blog
 date: 2020-10-14 09:40 +08
 description: A few more excerpts from the book that influenced me much.
+archived: true
 ---
 
 This week is not as busy as I thought. I feel like reading books; haven't been reading for a long, long while.
@@ -20,3 +21,5 @@ I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio M
 > 为什么露出的肠子这样凄惨？为什么看见人的内侧就毛骨悚然，非捂住眼睛不可？为什么流血会给人一种冲击？为什么人的内脏这样丑陋？……难道这与柔嫩滋润的肌肤的美，不是完全属同一性质的东西吗？……如果我说我从鹤川那里学到了把自己的丑化为无这思想方法，他会露出什么样的表情呢？内侧与外侧，比如说把人当作蔷薇花没有内外的东西来观赏，这种想法为什么会被人看成是非人性的呢？如果人能够把其精神的内侧和肉体的内侧当作蔷薇的花瓣，柔顺地翻过来卷过去，让它暴露在日光和五月的微风中……
 
 > 南泉和尚所以斩猫，是因为斩断自我的迷妄，斩断妄念妄想的根源。通过无情的实践，把猫首斩掉，以此寓意斩断一切矛盾、对立、自己和他人的争执。如果把这个叫做“杀人刀”，那赵州的作为就是“活人剑”。他将沾满泥泞的被人蔑视的草鞋顶在头上，以这种无限的宽容实践了菩萨之道。
+
+> “这是俗世。”我思忖着，“战争结束了，在这灯下，人们被邪恶的思想所驱动。无数男女在灯下相互凝视着对方的脸，嗅到一股逼将过来的**死一般的行为的**气味。刚觉得这无数的灯全是邪恶的灯，我的心就得到了慰藉。但愿我心中的邪恶繁衍，无计其数地繁衍，发出了闪光，并与眼前无计其数的灯一一保持照应！但愿包围着邪恶的我心中的黑暗，与包围着这无计其数的灯的夜是相等的！”
