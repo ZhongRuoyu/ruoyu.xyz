@@ -27,4 +27,4 @@ I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio M
 
 Seems that it's not that good to be too free. I guess I'll have a better sleep tonight.
 
-Well, at least Beethoven's Symphony No. 7 is good. Both the Seiji Ozawa & Saito Kinen version, recorded in 2016/17, and the very famous Carlos Cleiber & Vienna one from 1976.
+Well, at least Beethoven's Symphony No. 7 is good. Both the Seiji Ozawa & Saito Kinen version, recorded in 2016/17, and the very famous Carlos Kleiber & Vienna one from 1976.
