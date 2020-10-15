@@ -22,11 +22,11 @@ description: Find the archived posts at Ruoyu’s site.
 {%- assign tags_sorted = tags | sort_natural -%}
 
 {%- if tags_count == 0 -%}
-<div class="post-not-found-wrapper">
-  <p class="post-not-found">
-    There are currently no posts in the archive.
-  </p>
-</div>
+  <div class="post-not-found-wrapper">
+    <p class="post-not-found">
+      There are currently no posts in the archive.
+    </p>
+  </div>
 {%- else -%}
   <div id="tags-list" class="site-tags-wrapper">
   {%- assign tags_list_displayed = "" | split: "," -%}
