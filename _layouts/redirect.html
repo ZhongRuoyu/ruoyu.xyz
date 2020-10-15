@@ -1,9 +1,18 @@
 ---
-layout: default
+layout: compress
 ---
-<p>Taking you to:<br><span class="redirect-address">{{ page.redirect.to }}</span></p>
-<p><a class="forward" href="{{ page.redirect_to }}">Visit</a></p>
-<link rel="canonical" href="{{ page.redirect_to }}">
-<script>location="{{ page.redirect.to }}"</script>
-<meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
-<meta name="robots" content="noindex">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="{{ page.redirect.to }}">
+  <script>location="{{ page.redirect.to }}"</script>
+  <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+  <meta name="robots" content="noindex">
+  <div style="text-align: center;">
+    <h1>Redirecting…</h1>
+    <hr>
+    <p>Taking you to:<br>{{ page.redirect.to }}</p>
+    <p><a href="{{ page.redirect.to }}">Visit</a></p>
+  </div>
+</html>
