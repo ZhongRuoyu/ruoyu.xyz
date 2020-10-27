@@ -28,6 +28,6 @@ It was his Neujahrskonzert that helped me to kickstart. I'm not good at describi
 *May you rest in peace.*
 
 <figure>
-<img src="/assets/images/posts/2020-06/gustavo_dudamel.jpg" alt="Maestro Jansons in 2015">
+<img src="/assets/images/posts/2020-10/mariss_jansons.jpg" alt="Maestro Jansons in 2015">
 <figcaption>Maestro Jansons in 2015<br><a href="https://commons.wikimedia.org/wiki/File:2015_Jansons_Mariss-0242_(18794705869)_(2)_(cropped).jpg">Photo</a> by Franz Johann Morgenbesser<br>Used under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a></figcaption>
 </figure>
