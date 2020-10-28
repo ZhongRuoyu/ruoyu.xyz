@@ -6,6 +6,7 @@ tag:
 - Science Fiction
 category: blog
 description: A study on science fiction.
+archived: true
 ---
 
 This is an essay on science fiction, originally written in March for an assignment. Here is the original question:
