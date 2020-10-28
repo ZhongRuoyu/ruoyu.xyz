@@ -4,7 +4,6 @@ date: 2020-10-27 18:17 +08
 tag:
 - Music
 - Classical
-- Thoughts
 category: blog
 description: Thank you, Maestro Jansons, for having piqued my interest in music.
 ---
