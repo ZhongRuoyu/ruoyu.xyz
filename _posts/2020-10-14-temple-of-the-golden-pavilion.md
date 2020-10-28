@@ -2,9 +2,8 @@
 title: More Excerpts from the Temple of the Golden Pavilion
 category: blog
 date: 2020-10-14 09:40 +08
-last_modified_at: 2020-10-14 15:50 +08
+last_modified_at: 2020-10-28 14:33 +08
 description: A few more excerpts from the book that influenced me much.
-archived: true
 ---
 
 This week is not as busy as I thought. I feel like reading books; haven't been reading for a long, long while.
@@ -25,6 +24,6 @@ I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio M
 
 > “这是俗世。”我思忖着，“战争结束了，在这灯下，人们被邪恶的思想所驱动。无数男女在灯下相互凝视着对方的脸，嗅到一股逼将过来的死一般的行为的气味。刚觉得这无数的灯全是邪恶的灯，我的心就得到了慰藉。但愿我心中的邪恶繁衍，无计其数地繁衍，发出了闪光，并与眼前无计其数的灯一一保持照应！但愿包围着邪恶的我心中的黑暗，与包围着这无计其数的灯的夜是相等的！”
 
-Seems that it's not that good to be too free. I guess I'll have a better sleep tonight.
+<!-- Seems that it's not that good to be too free. -->Well, I guess I'll have a better sleep tonight.
 
-Well, at least Beethoven's Symphony No. 7 is good. Both the Seiji Ozawa & Saito Kinen version, recorded in 2016/17, and the very famous Carlos Kleiber & Vienna version from 1976.
+At least Beethoven's Symphony No. 7 is good.<!-- Both the Seiji Ozawa & Saito Kinen version, recorded in 2016/17, and the very famous Carlos Kleiber & Vienna version from 1976. -->
