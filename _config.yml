@@ -1,4 +1,4 @@
-title: Zhong Ruoyu
+title: Ruoyu
 tagline: Time, truth, and hearts.
 description: >-
   Time, truth, and hearts.
@@ -7,7 +7,7 @@ baseurl: "" # the subpath of the site, e.g. /blog
 lang: en-SG
 logo: /assets/images/logo/logo.png
 
-author: Zhong Ruoyu
+author: Ruoyu
 
 # post settings
 navigation_categories:
@@ -34,7 +34,7 @@ twitter:
 facebook:
   publisher: https://www.facebook.com/ciel.ruoyu
 social:
-  name: Zhong Ruoyu
+  name: Ruoyu
   links:
     - https://twitter.com/ZhongRuoyu
     - https://www.facebook.com/ciel.ruoyu
@@ -59,7 +59,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: Zhong Ruoyu
+      author: Ruoyu
 
 sass:
   style: compressed
