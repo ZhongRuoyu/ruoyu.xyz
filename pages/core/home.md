@@ -1,5 +1,5 @@
 ---
-title: Zhong Ruoyu
+title: Ruoyu
 permalink: /
 home: true
 centre_content: true
