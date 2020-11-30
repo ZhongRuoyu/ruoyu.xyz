@@ -3,7 +3,6 @@ title: Why This Blog Exists
 layout: post
 category: blog
 date: 2020-10-10 12:13 +08
-author: Zhong Ruoyu
 description: I have been thinking about why this blog should exist for a long, long while. Maybe this is the answer.
 ---
 
