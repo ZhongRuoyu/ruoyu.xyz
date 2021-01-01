@@ -8,6 +8,6 @@ For more information, please visit [the site](https://ruoyu.xyz).
 
 ## Licence
 
-Copyright © 2020 Zhong Ruoyu. All rights reserved.
+Copyright © 2020 - 2021 Zhong Ruoyu. All rights reserved.
 
 For more licensing information, see [here](/LICENSE.md).

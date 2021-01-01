@@ -1,6 +1,6 @@
 # Licence
 
-Copyright © 2020 Zhong Ruoyu. All rights reserved.
+Copyright © 2020 - 2021 Zhong Ruoyu. All rights reserved.
 
 Unless otherwise stated, this licence shall apply to all the files in this repository.
 
