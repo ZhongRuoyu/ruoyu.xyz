@@ -14,5 +14,12 @@ div.footer-wrapper {
         text-align: center;
         font-size: $font-smaller;
         color: $gamma;
+
+        > p.p-footer-copyright-information {
+
+            > span.span-no-break {
+                display: inline-block;
+            }
+        }
     }
 }
