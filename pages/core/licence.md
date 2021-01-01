@@ -5,7 +5,7 @@ redirect_from: /license/
 description: The licence for contents on ruoyu.xyz.
 ---
 
-Copyright © 2020 Ruoyu. All rights reserved.
+Copyright &copy; 2020 &ndash; 2021 Zhong Ruoyu. All rights reserved.
 
 Unless otherwise stated, the contents on this site are licensed under this licence.
 
