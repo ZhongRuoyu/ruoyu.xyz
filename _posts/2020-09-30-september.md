@@ -28,7 +28,7 @@ Had a terrible dream last night. A hard rain's gonna fall.
 > Fate whispers to the warrior, "*You cannot withstand the storm.*"  
 > The warrior whispers back, "*I am the storm.*"
 
-Let the storm break.<!-- Fear not. It will come.s -->
+Let the storm break. <!-- Fear not. It will come. -->
 
 <hr />
 

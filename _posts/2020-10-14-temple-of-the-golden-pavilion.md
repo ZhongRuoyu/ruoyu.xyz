@@ -8,7 +8,7 @@ description: A few more excerpts from the book that influenced me much.
 
 This week is not as busy as I thought. I feel like reading books; haven't been reading for a long, long while.
 
-I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio Mishima influenced me a lot. Though I don't feel like writing a review, below are some excerpts. The excerpts are in Chinese, translated by 唐月梅 (Tang Yuemei).
+I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio Mishima influenced me a lot. Though I don't feel like writing a review, below are some excerpts. The excerpts are in Chinese, translated by 唐月梅.
 
 > 结巴的人为了发出第一声而焦灼万分。他就好像一只企图从内界浓密的粘鸟胶摆脱出来而拼死挣扎的小鸟，好不容易挣脱出来，却为时已晚矣。诚然，在我苦苦挣扎的时候，外界的现实似乎也有罢手等待着我的情况。可是等待着我的现实，已不是新鲜的现实。纵令我费劲工夫好容易到达了外界，那里却又总是瞬间变色，完全错位了。……于是我想：惟有这样对我才最合适，失去新鲜度的现实、散发着半腐臭的现实，总是横躺在我的眼前。
 
@@ -24,6 +24,3 @@ I decided to read *the Temple of the Golden Pavilion* again. The book by Yukio M
 
 > “这是俗世。”我思忖着，“战争结束了，在这灯下，人们被邪恶的思想所驱动。无数男女在灯下相互凝视着对方的脸，嗅到一股逼将过来的死一般的行为的气味。刚觉得这无数的灯全是邪恶的灯，我的心就得到了慰藉。但愿我心中的邪恶繁衍，无计其数地繁衍，发出了闪光，并与眼前无计其数的灯一一保持照应！但愿包围着邪恶的我心中的黑暗，与包围着这无计其数的灯的夜是相等的！”
 
-<!-- Seems that it's not that good to be too free. -->Well, I guess I'll have a better sleep tonight.
-
-At least Beethoven's Symphony No. 7 is good.<!-- Both the Seiji Ozawa & Saito Kinen version, recorded in 2016/17, and the very famous Carlos Kleiber & Vienna version from 1976. -->
