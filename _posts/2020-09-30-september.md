@@ -4,6 +4,7 @@ category: blog
 date: 2020-09-30 23:50 +08
 last_modified_at: 2020-10-01 22:20 +08
 description: End-of-September thoughts.
+archived: true
 ---
 
 Haven't updated my blog for a long, long while. To me, the past month has been happy, but busy and unsteady as well. I have been experiencing high pressure, and for once I felt so low.
