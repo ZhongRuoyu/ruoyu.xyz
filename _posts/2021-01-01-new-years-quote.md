@@ -14,4 +14,4 @@ With this message, we will play now the famous "Blue Danube", and I hope that on
 
 Grazie.
 
-*(Speech by Maestro Riccardo Muti during the Neuhahrskonzert 2021)*
+*(Speech by Maestro Riccardo Muti during the Neujahrskonzert 2021)*
