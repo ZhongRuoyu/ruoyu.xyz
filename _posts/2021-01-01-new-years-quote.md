@@ -2,7 +2,7 @@
 title: New Year's Quote from Riccardo Muti
 category: blog
 date: 2021-01-01 09:41 +08
-last_modified_at: 2020-02-05 18:40 +08
+last_modified_at: 2021-02-05 18:40 +08
 description: An inspiring speech from Maestro Muti during the Neujahrskonzert 2021.
 ---
 
