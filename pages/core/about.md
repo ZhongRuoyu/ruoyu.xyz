@@ -2,11 +2,12 @@
 title: About
 layout: post
 permalink: /about/
-description: Find information about Ruoyu, and about ruoyu.xyz as well.
+description: Find information about me, and about this site as well.
 ---
-Welcome to my site!
 
-I'm Ruoyu, a first year student studying computer science at [Nanyang Technological University, Singapore](https://www.ntu.edu.sg/).
+Welcome to my site.
+
+I'm Ruoyu, a Second Year Computer Science student at [Nanyang Technological University, Singapore](https://www.ntu.edu.sg/).
 
 This site is where I post my thoughts, share my favourite music, etc. There are currently 2 sections: [Blog](/blog/) and [Projects](/projects/). You can also see [here](/tags/) for a list of tagged posts.
 
