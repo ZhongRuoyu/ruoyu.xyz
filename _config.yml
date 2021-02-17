@@ -41,8 +41,8 @@ social:
     - https://www.instagram.com/cielchung/
     - https://github.com/ZhongRuoyu
 
-#webmaster_verifications:
-#  google:
+webmaster_verifications:
+  google: kBhDIxREI8tuCvsoezLc7T4lOF0V5bP_8TaLIozGRMs
 google_analytics: UA-167948296-1
 
 permalink: /:categories/:year-:month/:title/
