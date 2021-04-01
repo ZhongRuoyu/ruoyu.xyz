@@ -20,7 +20,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-redirect-from'
-  gem "nokogiri", ">= 1.11.0.rc4" # security fix 2021-01-04
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
