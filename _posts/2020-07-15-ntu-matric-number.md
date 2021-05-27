@@ -2,7 +2,7 @@
 title: The Check Digit Algorithm for NTU Matric Numbers
 category: projects
 date: 2020-07-15 05:16 +08
-last_modified_at: 2020-07-24 18:13 +08
+last_modified_at: 2021-05-27 18:21 +08
 tag:
 - Computer Science
 - Algorithm
@@ -39,7 +39,7 @@ Actually, I have done some Googling; I did find out that our senior, [Daniel D. 
 
 It was then that I started to ponder whether it was because the algorithm had changed a bit for bridging students, and much for undergrads. But since the slightly-modified algorithm still worked on bridging numbers, I didn't think that the algorithm (the pattern) has changed. Maybe it's just the weighting coefficients. Then I started to do my own engineering.
 
-I collected quite a lot of undergrad matric numbers (A big thank you to those who have provided their matric numbers to me!), and I wrote a [C program](https://github.com/ZhongRuoyu/ntu-matric-number/blob/master/calculation/ntu_matric.c) to attempt to find `ALPHA[11]`. (8 `for` loops, wow!) Then I did it. With a selected set of only 8 matric numbers, I got the only result out of 110,000,000 tries.
+I collected quite a lot of undergrad matric numbers (A big thank you to those who have provided their matric numbers to me!), and I wrote a [C program](https://github.com/ZhongRuoyu/ntu-matric-number/blob/main/src/ntu_matric.c) to attempt to find `ALPHA[11]`. (8 `for` loops, wow!) Then I did it. With a selected set of only 8 matric numbers, I got the only result out of 110,000,000 tries.
 
 <figure>
 <img src="/assets/images/posts/2020-07/the_only_result.png" alt="The Only Result">
