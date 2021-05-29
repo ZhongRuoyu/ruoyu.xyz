@@ -10,4 +10,4 @@ For more information, please visit [the site](https://www.ruoyu.xyz).
 
 Copyright © 2020 - 2021 Zhong Ruoyu. All rights reserved.
 
-For more licensing information, see [here](/LICENSE.md).
+For more licensing information, see [here](/LICENCE.md).
