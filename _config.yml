@@ -23,7 +23,7 @@ navigation_categories:
 
 hide_info: false
 hide_author: false
-hide_author_twitter: false
+hide_author_twitter: true
 hide_date: false
 hide_last_modified_at: false
 hide_tags: false
@@ -56,7 +56,6 @@ defaults:
     values:
       layout: post
       author: Ruoyu
-      hide_author_twitter: true
 
 sass:
   style: compressed
