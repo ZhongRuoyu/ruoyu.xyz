@@ -1,7 +1,7 @@
 title: Ruoyu
 tagline: Time, truth, and hearts.
 description: >-
-  Time, truth, and hearts.
+  Welcome to my personal site. Glad to have you here.
 url: https://www.ruoyu.xyz
 baseurl: "" # the subpath of the site, e.g. /blog
 lang: en-SG
@@ -31,14 +31,10 @@ hide_tags: false
 twitter:
   username: ZhongRuoyu
   card: summary_large_image
-facebook:
-  publisher: https://www.facebook.com/ciel.ruoyu
 social:
   name: Ruoyu
   links:
     - https://twitter.com/ZhongRuoyu
-    - https://www.facebook.com/ciel.ruoyu
-    - https://www.instagram.com/cielchung/
     - https://github.com/ZhongRuoyu
 
 webmaster_verifications:
@@ -60,6 +56,7 @@ defaults:
     values:
       layout: post
       author: Ruoyu
+      hide_author_twitter: true
 
 sass:
   style: compressed
